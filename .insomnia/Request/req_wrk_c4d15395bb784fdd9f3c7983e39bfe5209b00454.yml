@@ -1,0 +1,25 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe5209b00454
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe5253d27ab5
+modified: 1670810045832
+created: 1670810045832
+url: "{{ base_url }}/snis/{{ sni_name_or_id }}"
+name: Update SNI
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

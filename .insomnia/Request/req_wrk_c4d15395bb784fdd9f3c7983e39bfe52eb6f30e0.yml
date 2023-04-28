@@ -1,0 +1,30 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52eb6f30e0
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe5253d27ab5
+modified: 1670810045831
+created: 1670810045831
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}/snis"
+name: List SNIs associated to a specific certificate
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: offset
+    disabled: true
+    value: string
+  - name: size
+    disabled: true
+    value: "100"
+  - name: tags
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1670810045831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

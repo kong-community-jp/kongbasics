@@ -1,0 +1,22 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52b9a17c6e
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe52f910fde1
+modified: 1670810045798
+created: 1670810045798
+url: "{{ base_url }}/upstreams/{{ upstream_name_or_id }}/targets/{{
+  target_host_or_id }}"
+name: Disable a target in the load balancer.
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045798
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52bbf2009e
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe52f2b67a02
+modified: 1670810045868
+created: 1670810045868
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}/services/{{
+  service_name_or_id }}"
+name: Update Service
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

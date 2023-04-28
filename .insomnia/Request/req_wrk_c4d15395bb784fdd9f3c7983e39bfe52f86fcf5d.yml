@@ -1,0 +1,25 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52f86fcf5d
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe52cc3feaea
+modified: 1670810045865
+created: 1670810045865
+url: "{{ base_url }}/plugins/{{ plugin_id }}/service"
+name: Update Service for this Plugin
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

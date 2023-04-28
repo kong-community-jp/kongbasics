@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe5282ca240d
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe524999528e
+modified: 1670810045863
+created: 1670810045863
+url: "{{ base_url }}/routes/{{ route_name_or_id }}"
+name: Delete Route
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

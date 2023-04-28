@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52c8c708b6
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe528dc208f8
+modified: 1670810045849
+created: 1670810045849
+url: "{{ base_url }}/services/{{ service_name_or_id }}/plugins/{{ plugin_id }}"
+name: Delete Plugin to a specific service
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045849
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe524057bdc5
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe52774f0ba6
+modified: 1670810045866
+created: 1670810045866
+url: "{{ base_url }}/routes/{{ route_name_or_id }}/service"
+name: Update Service for this Route
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045866
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

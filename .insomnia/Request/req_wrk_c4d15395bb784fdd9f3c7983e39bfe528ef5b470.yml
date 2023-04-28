@@ -1,0 +1,22 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe528ef5b470
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe5263b00834
+modified: 1670810045817
+created: 1670810045817
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}/upstreams/{{
+  upstream_name_or_id }}"
+name: Delete Upstream to a specific certificate
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045817
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe522af28072
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe5253d27ab5
+modified: 1670810045832
+created: 1670810045832
+url: "{{ base_url }}/snis/{{ sni_name_or_id }}"
+name: Delete SNI
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+extends:
+  - ./zalando.yml
+functions:
+  - oasOpSuccessResponse
+  - oasTagDefined
+rules:
+  operation-success-response:
+    description: Operationは、"2xx"もしくは"3xx"のレスポンスを少なくとも一つ持つべきです.
+    recommended: true
+    given: '#OperationObject'
+    then:
+      field: responses
+      function: oasOpSuccessResponse
+  operation-tag-defined:
+    description: Operationタグはグローバルタグに定義する必要があります.
+    recommended: true
+    given: $
+    then:
+      function: oasTagDefined
+  must-have-info-description:
+    message: Missing `info.description`.
+    description: 'MUST contain API meta information [218]'
+    documentationUrl: 'https://opensource.zalando.com/restful-api-guidelines/#218'
+    severity: error
+    given: $.info
+    then:
+      field: description
+      function: truthy
+  oas2-operation-formData-consume-check: warn
+  operation-operationId-unique: error
+  operation-parameters: warn
+  path-params: error

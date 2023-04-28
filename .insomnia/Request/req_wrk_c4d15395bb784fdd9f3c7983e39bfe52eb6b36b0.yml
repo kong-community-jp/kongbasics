@@ -1,0 +1,25 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52eb6b36b0
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe528dc208f8
+modified: 1670810045844
+created: 1670810045844
+url: "{{ base_url }}/consumers/{{ consumer_name_or_id }}/plugins/{{ plugin_id }}"
+name: Create or Update Plugin to the specified consumer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

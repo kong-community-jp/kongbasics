@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe5228eeb1f5
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe5210de46b3
+modified: 1670810045838
+created: 1670810045838
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}"
+name: Delete Certificate
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

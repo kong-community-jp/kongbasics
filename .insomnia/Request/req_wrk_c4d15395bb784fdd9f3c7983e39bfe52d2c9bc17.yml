@@ -1,0 +1,25 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52d2c9bc17
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe528dc208f8
+modified: 1670810045848
+created: 1670810045848
+url: "{{ base_url }}/routes/{{ route_name_or_id }}/plugins"
+name: Create Plugin to a specific route
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670810045848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

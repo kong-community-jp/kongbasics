@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52b752d60b
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe524999528e
+modified: 1670810045864
+created: 1670810045864
+url: "{{ base_url }}/routes/{{ route_name_or_id }}"
+name: View Route
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045864
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe524bf6b0f5
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe520c707f27
+modified: 1670810045859
+created: 1670810045859
+url: "{{ base_url }}/consumers"
+name: List Consumers
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: offset
+    disabled: true
+    value: string
+  - name: size
+    disabled: true
+    value: "100"
+  - name: tags
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1670810045859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

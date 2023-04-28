@@ -1,0 +1,21 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe52c190299d
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe52f910fde1
+modified: 1670810045815
+created: 1670810045815
+url: "{{ base_url }}/upstreams/{{ upstream_host_or_id }}/targets"
+name: List Upstream Targets
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670810045815
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

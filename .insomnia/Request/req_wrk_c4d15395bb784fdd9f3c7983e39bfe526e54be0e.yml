@@ -1,0 +1,30 @@
+_id: req_wrk_c4d15395bb784fdd9f3c7983e39bfe526e54be0e
+type: Request
+parentId: fld_wrk_c4d15395bb784fdd9f3c7983e39bfe528dc208f8
+modified: 1670810045851
+created: 1670810045851
+url: "{{ base_url }}/services/{{ service_name_or_id }}/plugins"
+name: List Plugins associated to a specific service
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: offset
+    disabled: true
+    value: string
+  - name: size
+    disabled: true
+    value: "100"
+  - name: tags
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1670810045851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,19 @@
+_id: wrk_c4d15395bb784fdd9f3c7983e39bfe52
+type: Workspace
+parentId: null
+modified: 1670810060039
+created: 1670810060039
+name: Kong Admin API 1.0.0
+description: >-
+  Kong comes with an internal RESTful Admin API for administration purposes.
+  Requests to the Admin API can be sent to any node in the cluster, and Kong
+  will keep the configuration consistent across all nodes.
+
+
+  - 8001 is the default port on which the Admin API listens.
+
+  - 8444 is the default port for HTTPS traffic to the Admin API.
+
+
+  This API is designed for internal use and provides full control over Kong, so care should be taken when setting up Kong environments to avoid undue public exposure of this API.
+scope: design
