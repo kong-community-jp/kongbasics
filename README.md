@@ -2,7 +2,7 @@
 
 本プロジェクトでは、Nginxベースの高速なAPI Gatewayとして有名なKongの設定を行うAdmin APIを、OpenAPI仕様のドキュメントとして整備し、そのドキュメントをブラウザ表示して、try it機能を使ってAPI実行を行い、Kong Gatewayの設定方法を学びます。
 
-[Kong Admin API](https://david3080.github.io/kongadminapi)
+[Kong Admin API](https://kong-community-jp.github.io/kongbasics)
 
 下記のルールで整理しています。
 - 対象オブジェクトは、Service、Route、Consumer、Plugin、Certificate、SNI、Upstreamの順
@@ -34,7 +34,7 @@ $ docker volume rm kongadminapi_kong-db-data
 ```
 
 # Kong Admin API Demo
-[OASドキュメント](https://david3080.github.io/kongadminapi/mockbin.html)のtry it機能を使って下記のデモシナリオを実行します。
+[OASドキュメント](https://kong-community-jp.github.io/kongbasics/mockbin.html)のtry it機能を使って下記のデモシナリオを実行します。
 
 ※上述のdocker-composeを使ってKong 3.2が実行されていないとKong Admin APIを利用できないことご注意ください。
 
@@ -42,9 +42,9 @@ $ docker volume rm kongadminapi_kong-db-data
 
 [mockbinサイト](https://mockbin.org/request)は、HTMLやJSON、YAML、XMLといった形式でリクエストヘッダやボディをそのままエコーして返してくれるテスト用のAPIサービスです. 例えば、このURLにブラウザからアクセスするとHTML形式のコンテンツがレスポンスされますが、ヘッダに「accept: "application/json"」を設定するとJSON形式でレスポンスされます。そのため、Kongのサービスに「accept: "application/json"」ヘッダを付与するプラグインを指定して、REST APIとして機能する設定を行います.
 
-1. [サービスの登録](https://david3080.github.io/kongadminapi/mockbin.html#/operations/1-2_create-service)
-2. [ルートの登録](https://david3080.github.io/kongadminapi/mockbin.html#/operations/2-8_create-route-associated-to-a-specific-service): "service_name_or_id"に"mockbin-service"と入力して実行します。
-3. [request-transformerプラグインの設定](https://david3080.github.io/kongadminapi/mockbin.html#/operations/4-8_create-plugin-associated-to-a-specific-service): "service_name_or_id"に"mockbin-service"と入力して実行します。
+1. [サービスの登録](https://kong-community-jp.github.io/kongbasics/mockbin.html#/operations/1-2_create-service)
+2. [ルートの登録](https://kong-community-jp.github.io/kongbasics/mockbin.html#/operations/2-8_create-route-associated-to-a-specific-service): "service_name_or_id"に"mockbin-service"と入力して実行します。
+3. [request-transformerプラグインの設定](https://kong-community-jp.github.io/kongbasics/mockbin.html#/operations/4-8_create-plugin-associated-to-a-specific-service): "service_name_or_id"に"mockbin-service"と入力して実行します。
 4. Kong経由のmockbin API実行
 
     下記のURLにアクセスし、レスポンスボディのJSON内のheders配列に「accept: "application/json"」が含まれていることを確認
@@ -53,7 +53,7 @@ $ docker volume rm kongadminapi_kong-db-data
 
 ## ② mockbin　APIをターゲットに登録し、アップストリーム経由で実行する
 
-1. [アップストリームの登録](https://david3080.github.io/kongadminapi/mockbin.html#/operations/7-2_create-upstream)
+1. [アップストリームの登録](https://kong-community-jp.github.io/kongbasics/mockbin.html#/operations/7-2_create-upstream)
 
 ## (TODO)③ consumerとauthを登録し、Basic認証でmockbin APIを実行する
 ## (TODO)④ rate-limitingプラグインを設定する
