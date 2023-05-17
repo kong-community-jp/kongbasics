@@ -12,7 +12,7 @@
 - OAS内のタグはオブジェクト名もしくは2つのオブジェクト名の組み合わせで作成しています
 - 上記の考え方は[Kong Admin APIのオブジェクトごとの整理](./APIList.md)にまとめています。
 
-# Kong GW OSS V3.1 + PostgreSQLのdocker-compose.yml
+# Kong GW OSS V3.2 + PostgreSQLのdocker-compose.yml
 
 上述のKong Admin APIドキュメントから「try it」を実行して学習するための環境です。
 
@@ -36,7 +36,7 @@ $ docker volume rm kongadminapi_kong-db-data
 # Kong Admin API Demo
 [OASドキュメント](https://david3080.github.io/kongadminapi/mockbin.html)のtry it機能を使って下記のデモシナリオを実行します。
 
-※上述のdocker-composeを使ってKong 3.1が実行されていないとKong Admin APIを利用できないことご注意ください。
+※上述のdocker-composeを使ってKong 3.2が実行されていないとKong Admin APIを利用できないことご注意ください。
 
 ## ① mockbin　APIのサービス登録
 
