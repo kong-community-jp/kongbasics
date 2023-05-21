@@ -2,7 +2,7 @@
 
 本プロジェクトでは、Nginxベースの高速なAPI Gatewayとして有名なKongの設定を行うAdmin APIを、OpenAPI仕様のドキュメントとして整備し、そのドキュメントをブラウザ表示して、try it機能を使ってAPI実行を行い、Kong Gatewayの設定方法を学びます。
 
-![Kong Admin API](https://kong-community-jp.github.io/kongbasics)
+[Kong Admin API](https://kong-community-jp.github.io/kongbasics)
 
 下記のルールで整理しています。
 - 対象オブジェクトは、Service、Route、Consumer、Plugin、Certificate、SNI、Upstreamの順
